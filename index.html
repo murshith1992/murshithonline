@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Online Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Simple Online Bookstore</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="content">
+  <h2>Browse Books</h2>
+
+  <label>Filter by Category:</label>
+  <select onchange="filterBooks(this.value)">
+    <option value="all">All</option>
+    <option value="Adventure">Adventure</option>
+    <option value="Mystery">Mystery</option>
+    <option value="Romance">Romance</option>
+    <option value="Science">Science</option>
+  </select>
+
+  <div id="bookList" class="book-list"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

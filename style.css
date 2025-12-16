@@ -1,0 +1,7 @@
+body{font-family:Arial;background:#f4f4f4;margin:0}
+header{background:#34495e;color:white;padding:15px}
+nav a{color:white;margin-right:15px;text-decoration:none}
+.content{padding:20px}
+.book-list{display:flex;flex-wrap:wrap}
+.book{background:white;padding:10px;margin:10px;width:180px}
+button{background:#27ae60;color:white;border:none;padding:6px}
